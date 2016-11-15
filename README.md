@@ -1,3 +1,38 @@
+>bower install
+>npm install
+>sudo gem install sass
+>sudo gem install compass
+vk@Vikass-Air ~/g/s/s/src> compass compile
+directory css
+    write css/feeditem.css
+    write css/screen.css
+vk@Vikass-Air ~/g/s/sc-be-new-tab> gulp
+[17:45:59] Using gulpfile ~/gt/sc-repos/sc-be-new-tab/gulpfile.js
+[17:45:59] Starting 'html'...
+[17:45:59] Starting 'columns'...
+[17:45:59] Starting 'compass'...
+[17:45:59] Starting 'coffee'...
+[17:45:59] Starting 'libs'...
+[17:45:59] Starting 'copy'...
+[17:45:59] Finished 'html' after 75 ms
+[17:45:59] Finished 'copy' after 324 ms
+directory /Users/vk/gt/sc-repos/sc-be-new-tab/dist/css
+    write /Users/vk/gt/sc-repos/sc-be-new-tab/dist/css/feeditem.css
+    write /Users/vk/gt/sc-repos/sc-be-new-tab/dist/css/feeditem.css.map
+
+[17:46:00] Finished 'libs' after 895 ms
+[17:46:00] Finished 'coffee' after 1.05 s
+[17:46:00] Finished 'columns' after 1.08 s
+[17:46:00] Starting 'vulcanize'...
+    write /Users/vk/gt/sc-repos/sc-be-new-tab/dist/css/screen.css
+    write /Users/vk/gt/sc-repos/sc-be-new-tab/dist/css/screen.css.map
+
+[17:46:00] Finished 'compass' after 1.24 s
+[17:46:00] Starting 'default'...
+[17:46:00] Finished 'default' after 8.41 μs
+[17:46:01] Finished 'vulcanize' after 1.43 s
+
+
 #Tabbie <span style='float:right'>[![Join the chat at https://gitter.im/jariz/tabbie](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jariz/tabbie?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/jariz/tabbie.svg?branch=master&style=flat-square)](https://travis-ci.org/jariz/tabbie) [![](https://img.shields.io/badge/Chrome-Extension-yellow.svg?style=flat-square)](https://chrome.google.com/webstore/detail/tabbie/kckhddfnffeofnfjcpdffpeiljicclbd)
 
 ![](https://cloud.githubusercontent.com/assets/1415847/7947591/5ebce982-097e-11e5-99b8-2ceb979dfda7.png)
