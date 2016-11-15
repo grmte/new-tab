@@ -49,4 +49,4 @@ unzip tabbie.zip
 
 Load unpackaged extension -> folder tabbie.
 
-
+If you do not want some plugins delete them from the src/columns folder.
