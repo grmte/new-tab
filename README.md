@@ -1,11 +1,16 @@
->bower install
->npm install
+>vk@Vikass-Air ~/g/s/sc-be-new-tab> bower install
+
+>vk@Vikass-Air ~/g/s/sc-be-new-tab> npm install
+
 >sudo gem install sass
+
 >sudo gem install compass
+
 vk@Vikass-Air ~/g/s/s/src> compass compile
 directory css
     write css/feeditem.css
     write css/screen.css
+
 vk@Vikass-Air ~/g/s/sc-be-new-tab> gulp
 [17:45:59] Using gulpfile ~/gt/sc-repos/sc-be-new-tab/gulpfile.js
 [17:45:59] Starting 'html'...
@@ -31,6 +36,18 @@ directory /Users/vk/gt/sc-repos/sc-be-new-tab/dist/css
 [17:46:00] Starting 'default'...
 [17:46:00] Finished 'default' after 8.41 μs
 [17:46:01] Finished 'vulcanize' after 1.43 s
+
+vk@Vikass-Air ~/g/s/sc-be-new-tab> gulp package
+
+mkdir tabbie
+
+mv tabbie.zip tabbie
+
+cd tabbie/
+
+unzip tabbie.zip 
+
+Load unpackaged extension -> folder tabbie.
 
 
 #Tabbie <span style='float:right'>[![Join the chat at https://gitter.im/jariz/tabbie](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jariz/tabbie?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/jariz/tabbie.svg?branch=master&style=flat-square)](https://travis-ci.org/jariz/tabbie) [![](https://img.shields.io/badge/Chrome-Extension-yellow.svg?style=flat-square)](https://chrome.google.com/webstore/detail/tabbie/kckhddfnffeofnfjcpdffpeiljicclbd)
